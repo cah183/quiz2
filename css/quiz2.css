@@ -7,21 +7,34 @@
 html, bdy {
 	font-family: Helvetica, Arial, sans-serif;
 	background: #eeee;
+	font-size: 100%;
 }
 
 p {
 	margin: 10px 0;
-	font-weight: bold
+	font-weight: bold;
+	font-size: .625rem;
+}
+#spaceout{
+	margin: 20px;
 }
 
 section {
+	border-style:dashed;
+	border-radius:10px;
 	margin-bottom: 10px;
 }
-
+p:hover{
+	margin-left:5px;
+}
+section:hover{
+	background-color: yellow;
+}
 ul {
 	list-style: none;
 }
 
 ul {
 	list-style: none;
+	font-size: .625rem;
 }
